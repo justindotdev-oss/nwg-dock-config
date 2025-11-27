@@ -1,0 +1,63 @@
+window {
+  /* Must be transparent so the rectangular window is invisible */
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+#box {
+  /* The actual visual dock style goes here */
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: rgba(155, 155, 155, 0.1);
+  padding: 5px;
+}
+
+button,
+image {
+  background: none;
+  border-style: none;
+  box-shadow: none;
+  color: rgba(1, 1, 1, 0);
+}
+
+button:hover {
+  /* Brighter background */
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+
+  /* -- THE LIFT -- */
+  /* Moves the button UP by changing margins */
+  margin-top: 0px; /* Reduces top space */
+  margin-bottom: 4px; /* Adds bottom space to keep layout stable */
+}
+
+button:focus {
+  box-shadow: none;
+}
+
+tooltip {
+  opacity: 0;
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  box-shadow: none;
+}
+
+button {
+  padding: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #eee;
+  font-size: 16px;
+
+  /* -- ANIMATION SETUP -- */
+  /* Initial margins for the lift effect */
+  margin-top: 4px;
+  margin-bottom: 4px;
+
+  /* Smooth transition for margin and background changes */
+  transition: all 0.1s ease-out;
+}
