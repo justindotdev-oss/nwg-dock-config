@@ -30,8 +30,10 @@ button:hover {
 
   /* -- THE LIFT -- */
   /* Moves the button UP by changing margins */
-  margin-top: 0px; /* Reduces top space */
-  margin-bottom: 4px; /* Adds bottom space to keep layout stable */
+  margin-top: 0px;
+  /* Reduces top space */
+  margin-bottom: 4px;
+  /* Adds bottom space to keep layout stable */
 }
 
 button:focus {
