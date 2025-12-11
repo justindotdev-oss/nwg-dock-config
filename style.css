@@ -7,7 +7,7 @@ window {
 
 #box {
   /* The actual visual dock style goes here */
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(10, 10, 10, 0.5);
   border-radius: 14px;
   border-style: solid;
   border-width: 1.5px;
